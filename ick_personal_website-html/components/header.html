@@ -1,0 +1,32 @@
+<header class="site-header">
+	<nav class="navbar">
+		<!-- CTA (left) -->
+		<a href="order.html" class="header-cta" id="headerCta" aria-label="Sipariş Ver">Sipariş Ver</a>
+		<!-- NAV LINKS (logo removed; centered) -->
+		<ul class="nav-links hdr" id="navLinks" role="menubar">
+			<li><a href="index.html" data-i18n="navHome" class="nav-link">Anasayfa</a></li>
+			<li><a href="about.html" data-i18n="navAbout" class="nav-link">Hakkımda</a></li>
+			<li><a href="projects.html" data-i18n="navProjects" class="nav-link">Projelerim</a></li>
+			<li><a href="blog.html" data-i18n="navBlog" class="nav-link">Blog</a></li>
+			<li><a href="contact.html" data-i18n="navContact" class="nav-link">İletişim</a></li>
+
+			<!-- DİL DEĞİŞTİRME -->
+			<li class="lang-switch">
+				<button onclick="setLang('tr')" class="lang-btn" title="Türkçe">TR</button>
+				<button onclick="setLang('en')" class="lang-btn" title="English">EN</button>
+			</li>
+
+			<!-- DARK / LIGHT -->
+			<li>
+				<button id="themeToggle" class="theme-btn" title="Tema Değiştir">🌙</button>
+			</li>
+		</ul>
+
+		<!-- HAMBURGER -->
+		<div class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false" role="button">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</nav>
+</header>

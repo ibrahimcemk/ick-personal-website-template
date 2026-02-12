@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="tr">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Projeler | Web Developer Portfolio</title>
+		<meta
+			name="description"
+			content="Web projelerim ve portföyüm. 50+ tamamlanan proje. Web tasarımı, frontend geliştirme, UI/UX çalışmaları, API entegrasyonu." />
+		<meta name="keywords" content="web projeler, portfolio, web tasarımı, frontend, React, JavaScript, projeler" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="İbrahim Cem Keleş" />
+		<meta name="theme-color" content="#4a2b1f" />
+		<meta name="color-scheme" content="light dark" />
+
+		<!-- Open Graph -->
+		<meta property="og:title" content="Projeler | Web Developer" />
+		<meta property="og:description" content="50+ projeden oluşan portföy. Web tasarımı ve geliştirme çalışmalarım." />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://ibrahimcemkeles.com/projects.html" />
+		<meta property="og:image" content="https://ibrahimcemkeles.com/assets/images/og-projects.svg" />
+
+		<!-- Twitter -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="Projeler | Web Developer" />
+		<meta name="twitter:description" content="50+ projeden oluşan portföy. Web tasarımı ve geliştirme çalışmalarım." />
+		<meta name="twitter:image" content="https://ibrahimcemkeles.com/assets/images/og-projects.svg" />
+
+		<link rel="canonical" href="https://ibrahimcemkeles.com/projects.html" />
+		<link rel="icon" href="assets/images/project1.jpg" />
+		<link rel="manifest" href="manifest.json" />
+
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<!-- HEADER -->
+		<div id="header"></div>
+
+		<!-- PAGE HERO -->
+		<section class="hero-small">
+			<div class="container">
+				<h1 data-i18n="projectsPageTitle">Tüm Projeler</h1>
+				<p data-i18n="projectsPageDesc">Çalıştığım en iyi projelerin genel bakışı</p>
+			</div>
+		</section>
+
+		<!-- FILTERS -->
+		<section class="filters-section">
+			<div class="container">
+				<div class="filter-buttons">
+					<button class="filter-btn active" data-filter="all" data-i18n="filterAll">Tümü</button>
+					<button class="filter-btn" data-filter="web" data-i18n="filterWeb">Web</button>
+					<button class="filter-btn" data-filter="mobile" data-i18n="filterMobile">Mobil</button>
+					<button class="filter-btn" data-filter="Graphic Design" data-i18n="filterUI">Grafik Tasarım</button>
+					<button class="filter-btn" data-filter="api" data-i18n="filterAPI">API</button>
+				</div>
+			</div>
+		</section>
+
+		<!-- PROJECTS GRID -->
+		<section class="projects-section">
+			<div class="container">
+				<div class="projects-grid" id="projectsGrid"></div>
+
+				<!-- PROJECT MODAL -->
+				<div id="projectModal" class="modal">
+					<div class="modal-content">
+						<span class="close">&times;</span>
+						<div class="modal-body">
+							<div class="modal-image">
+								<img id="modalImage" src="" alt="Project" />
+							</div>
+							<div class="modal-info">
+								<h2 id="modalTitle"></h2>
+								<p id="modalDesc"></p>
+								<div class="modal-tech">
+									<h4>Teknolojiler:</h4>
+									<div id="modalTech" class="tech-badges"></div>
+								</div>
+								<div class="modal-links">
+									<a id="modalLink" href="#" class="btn btn-dark" target="_blank" data-i18n="btnViewLive">Canlı Demo</a>
+									<a id="modalCode" href="#" class="btn btn-outline-dark" target="_blank" data-i18n="btnSourceCode">Kaynak Kodu</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- FOOTER -->
+		<div id="footer"></div>
+
+		<!-- 🔽 SCRIPT'LER -->
+		<script src="js/include.js"></script>
+		<script src="js/theme.js"></script>
+		<script src="js/i18n.js"></script>
+		<script src="js/projects.js"></script>
+	</body>
+</html>

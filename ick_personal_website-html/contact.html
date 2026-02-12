@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="tr">
+	<head>
+		<meta charset="UTF-8" />
+		<title>İletişim | Web Developer - İbrahim Cem Keleş</title>
+		<meta
+			name="description"
+			content="Benimle iletişime geçin. Web projeleri, danışmanlık ve işbirliği için. Email, telefon ve sosyal medya iletişim bilgileri." />
+		<meta name="keywords" content="iletişim, email, telefon, web projesi, danışmanlık, işbirliği, bana ulaşın" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="İbrahim Cem Keleş" />
+		<meta name="theme-color" content="#4a2b1f" />
+		<meta name="color-scheme" content="light dark" />
+
+		<!-- Open Graph -->
+		<meta property="og:title" content="İletişim | Web Developer" />
+		<meta property="og:description" content="Benimle iletişime geçin. Web projeleriniz için yazın, arayın." />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://ibrahimcemkeles.com/contact.html" />
+		<meta property="og:image" content="https://ibrahimcemkeles.com/assets/images/og-contact.svg" />
+
+		<!-- Twitter -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="İletişim | Web Developer" />
+		<meta name="twitter:description" content="Benimle iletişime geçin. Web projeleriniz için yazın, arayın." />
+		<meta name="twitter:image" content="https://ibrahimcemkeles.com/assets/images/og-contact.svg" />
+
+		<link rel="canonical" href="https://ibrahimcemkeles.com/contact.html" />
+		<link rel="icon" href="assets/images/header-image.png" />
+		<link rel="manifest" href="manifest.json" />
+
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<!-- HEADER -->
+		<div id="header"></div>
+
+		<!-- PAGE HERO -->
+		<section class="hero-small">
+			<div class="container">
+				<h1 data-i18n="contactTitle">İletişim</h1>
+				<p data-i18n="contactSubtitle">Daha fazla bilgi için bana ulaşabilirsiniz.</p>
+			</div>
+		</section>
+
+		<!-- CONTACT SECTION -->
+		<section class="contact-section">
+			<div class="container">
+				<div class="contact-grid">
+					<!-- CONTACT INFO -->
+					<div class="contact-info">
+						<h2>Benimle İletişime Geçin</h2>
+						<p>Herhangi bir soru veya teklif için aşağıdaki iletişim bilgilerini kullanabilirsiniz.</p>
+
+						<div class="info-list">
+							<div class="info-item">
+								<span class="icon">📧</span>
+								<div>
+									<h4>Email</h4>
+									<p><a href="mailto:ibrahimmcemm.keles@gmail.com">ibrahimcemm.keles@gmail.com</a></p>
+								</div>
+							</div>
+							<div class="info-item">
+								<span class="icon">📱</span>
+								<div>
+									<h4>Telefon</h4>
+									<p><a href="tel:+905358557133">+905358557133</a></p>
+								</div>
+							</div>
+							<div class="info-item">
+								<span class="icon">📍</span>
+								<div>
+									<h4>Konum</h4>
+									<p>Türkiye</p>
+								</div>
+							</div>
+							<div class="info-item">
+								<span class="icon">🕐</span>
+								<div>
+									<h4>Yanıt Süresi</h4>
+									<p>24 saat içinde</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="social-contact">
+							<h4>Sosyal Medya Adreslerim</h4>
+							<div class="social-links">
+								<a href="https://github.com/ibrahimcemk" target="_blank" title="GitHub">GitHub</a>
+								<a href="https://www.linkedin.com/in/ibrahim-cem-keles/" target="_blank" title="LinkedIn">LinkedIn</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- CONTACT FORM -->
+					<div class="contact-form-wrapper">
+						<form id="contactForm" class="contact-form">
+							<div class="form-group">
+								<label for="name" data-i18n="formName">Adınız</label>
+								<input type="text" id="name" name="name" placeholder="Adınız" required />
+							</div>
+
+							<div class="form-group">
+								<label for="email" data-i18n="formEmail">Email</label>
+								<input type="email" id="email" name="email" placeholder="Email Adresiniz" required />
+							</div>
+
+							<div class="form-group">
+								<label for="subject" data-i18n="formSubject">Konu</label>
+								<input type="text" id="subject" name="subject" placeholder="Konu" required />
+							</div>
+
+							<div class="form-group">
+								<label for="message" data-i18n="formMessage">Mesajınız</label>
+								<textarea id="message" name="message" rows="6" placeholder="Mesajınızı yazınız..." required></textarea>
+							</div>
+
+							<button type="submit" class="btn btn-dark btn-lg" data-i18n="btnSend">Mesaj Gönder</button>
+							<p id="formMessage" class="form-message"></p>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- FOOTER -->
+		<div id="footer"></div>
+
+		<!-- WHATSAPP FLOATING BUTTON (only on this page) -->
+		<a href="#" id="whatsappFab" class="whatsapp-fab" aria-label="WhatsApp ile iletişime geç">
+			<svg class="whatsapp-icon" viewBox="0 0 32 32" aria-hidden="true">
+				<path d="M16 3C9.4 3 4 8.4 4 15c0 2.6.8 5 2.2 7L4 29l7.2-2c1.9 1 4.1 1.6 6.8 1.6 6.6 0 12-5.4 12-12S22.6 3 16 3z" fill="#fff" />
+			</svg>
+		</a>
+
+		<!-- SCRIPT'LER -->
+		<script src="js/include.js"></script>
+		<script src="js/theme.js"></script>
+		<script src="js/i18n.js"></script>
+		<script src="js/form.js"></script>
+		<script src="js/whatsapp.js"></script>
+	</body>
+</html>

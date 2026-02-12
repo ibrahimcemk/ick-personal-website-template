@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <style>
+      .title { font-family: 'Montserrat', Arial, sans-serif; font-size:48px; fill:#ffffff; font-weight:700 }
+      .subtitle { font-family: 'Montserrat', Arial, sans-serif; font-size:28px; fill:#ffffff; opacity:0.95 }
+    </style>
+  </defs>
+  <image href="header-image.png" x="0" y="0" width="1200" height="630" preserveAspectRatio="xMidYMid slice" />
+  <rect x="0" y="0" width="1200" height="630" fill="#000" opacity="0.35" />
+  <g transform="translate(60,420)">
+    <text class="title">İbrahim Cem Keleş</text>
+    <text class="subtitle" y="56">Web Developer & UI/UX Designer</text>
+  </g>
+</svg>

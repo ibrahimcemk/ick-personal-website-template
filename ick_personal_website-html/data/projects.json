@@ -1,0 +1,92 @@
+[
+	{
+		"id": 1,
+		"title": "Film Afiş Tasarımı",
+		"category": "Graphic Design",
+		"tech": ["Adobe Photoshop, Adobe Illustrator'le Birlikte Filmler İçin Afiş Tasarımı"],
+		"image": "/assets/projects/Deadpool_film_afisi.jpg",
+		"description": "Film afiş tasarımı yaparken kullanılan araçlar ve teknikler. Ekte Yer Alıyor. Her Türlü Afişler Tasarlıyorum.",
+		"live": "https://example.com",
+		"code": "https://github.com"
+	},
+	{
+		"id": 2,
+		"title": "Task Management App",
+		"category": "web",
+		"tech": ["Vue.js", "Firebase", "Tailwind CSS"],
+		"image": "/assets/projects/task_management_app.jpg",
+		"description": "Görevleri organize etmek için kullanıcı dostu web uygulaması. Yapılacaklar listesi, kategoriler ve öncelik yönetimi.",
+		"live": "https://example.com",
+		"code": "https://github.com"
+	},
+	{
+		"id": 3,
+		"title": "Social Media Dashboard",
+		"category": "api",
+		"tech": ["JavaScript", "REST API", "Chart.js"],
+		"image": "/assets/projects/social_media_dashboard.jpg",
+		"description": "Sosyal medya analitiğini görüntüleyen gerçek zamanlı pano. İstatistikler, grafik gösterimi ve veri analizi.",
+		"live": "https://example.com",
+		"code": "https://github.com"
+	},
+	{
+		"id": 4,
+		"title": "Weather App",
+		"category": "mobile",
+		"tech": ["React Native", "OpenWeather API", "Redux"],
+		"image": "assets/images/project4.jpg",
+		"description": "Hava durumu bilgisi sağlayan mobil uygulama. Gerçek zamanlı veriler, tahmin ve konum tabanlı hizmetler.",
+		"live": "https://example.com",
+		"code": "https://github.com"
+	},
+	{
+		"id": 5,
+		"title": "Graphic Design Component Library",
+		"category": "Graphic Design",
+		"tech": ["React", "Storybook", "TypeScript"],
+		"image": "assets/images/project5.jpg",
+		"description": "Yeniden kullanılabilir UI bileşenlerinin kapsamlı bir kütüphanesi. Düğmeler, kartlar, modaller ve daha fazlası.",
+		"live": "https://example.com",
+		"code": "https://github.com"
+	},
+	{
+		"id": 6,
+		"title": "Content Management System",
+		"category": "web",
+		"tech": ["Express.js", "PostgreSQL", "Docker"],
+		"image": "assets/images/project6.jpg",
+		"description": "Dinamik içerik yönetimi sistemi. Blog yazıları, kullanıcı yönetimi ve yayın kontrolü.",
+		"live": "https://example.com",
+		"code": "https://github.com"
+	},
+	{
+		"id": 7,
+		"title": "Fitness Tracker",
+		"category": "mobile",
+		"tech": ["Flutter", "Firebase", "Google Fit API"],
+		"image": "assets/images/project7.jpg",
+		"description": "Antrenman ve fitness aktivitelerini takip eden mobil uygulama. Kalori sayacı, egzersiz günlüğü ve hedefler.",
+		"live": "https://example.com",
+		"code": "https://github.com"
+	},
+	{
+		"id": 8,
+		"title": "Design System",
+		"category": "Graphic Design",
+		"tech": ["Figma", "CSS", "Design Tokens"],
+		"image": "assets/images/project8.jpg",
+		"description": "Tutarlı tasarım için kapsamlı tasarım sistemi. Renk paleti, tipografi ve komponent kuralları.",
+		"live": "https://example.com",
+		"code": "https://github.com"
+	},
+	{
+		"id": 9,
+		"title": "Payment Gateway Integration",
+		"category": "api",
+		"tech": ["Node.js", "Stripe", "Express"],
+		"image": "assets/images/project9.jpg",
+		"description": "Çeşitli ödeme yöntemlerini destekleyen ödeme ağ geçidi entegrasyonu. Güvenli ve hızlı işlemler.",
+		"live": "https://example.com",
+		"code": "https://github.com"
+	}
+]

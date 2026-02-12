@@ -1,0 +1,22 @@
+{
+	"name": "İbrahim Cem Keleş - Portfolio",
+	"short_name": "İbrahimCem",
+	"start_url": "/index.html",
+	"scope": "/",
+	"display": "standalone",
+	"background_color": "#ffffff",
+	"theme_color": "#4a2b1f",
+	"lang": "tr-TR",
+	"icons": [
+		{
+			"src": "assets/images/profile-image.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "assets/images/header-image.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
+}

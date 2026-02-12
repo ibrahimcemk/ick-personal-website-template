@@ -1,0 +1,44 @@
+[
+	{
+		"title": "Web Tasarımında Modern Trendler",
+		"date": "15.02.2026",
+		"summary": "2026 yılında web tasarımının en önemli trendlerini keşfedin. Minimalist tasarım, dark mode ve responsive design'in son durumunu inceleyelim.",
+		"image": "assets/images/blog1.jpg",
+		"link": "#"
+	},
+	{
+		"title": "React Hooks Rehberi",
+		"date": "10.02.2026",
+		"summary": "React Hooks'u anlamak ve kullanmak için kapsamlı bir rehber. useState, useEffect ve custom hooks hakkında her şeyi öğrenin.",
+		"image": "assets/images/blog2.jpg",
+		"link": "#"
+	},
+	{
+		"title": "CSS Grid ile Responsive Layouts",
+		"date": "05.02.2026",
+		"summary": "CSS Grid'i kullanarak modern ve responsive sayfa düzenleri oluşturmayı öğrenin. Pratik örneklerle adım adım geçelim.",
+		"image": "assets/images/blog3.jpg",
+		"link": "#"
+	},
+	{
+		"title": "JavaScript Performance Optimization",
+		"date": "28.01.2026",
+		"summary": "JavaScript kodunuzu hızlandırmanın en iyi yolları. Debouncing, throttling ve lazy loading teknikleri hakkında bilgi edinin.",
+		"image": "assets/images/blog4.jpg",
+		"link": "#"
+	},
+	{
+		"title": "Web Accessibility (A11y) Rehberi",
+		"date": "20.01.2026",
+		"summary": "Erişilebilir web siteleri oluşturmanın önemi ve nasıl yapılacağı. WCAG standartları ve best practices.",
+		"image": "assets/images/blog5.jpg",
+		"link": "#"
+	},
+	{
+		"title": "API Geliştirme Best Practices",
+		"date": "15.01.2026",
+		"summary": "RESTful API'ler oluştururken izlemeniz gereken kurallar ve best practices. Security, versioning ve documentation.",
+		"image": "assets/images/blog6.jpg",
+		"link": "#"
+	}
+]
